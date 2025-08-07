@@ -1,7 +1,7 @@
 # 🎯 Cálculo de Altura por Objeto de Referencia
 
 Este módulo permite calcular la altura a la que se grabó un video utilizando objetos de referencia (como AprilTags) y el concepto de GSD (Ground Sample Distance).
-
+Acordate de incluir en la carpeta sam_vit_b_01ec64.pth
 ## 📁 Estructura
 
 ```
@@ -73,4 +73,5 @@ Este módulo genera parámetros compatibles con `VideoPredictionRequest`:
     'focal_length': 6.72,      # Distancia focal
     'sensor_width': 9.65       # Ancho del sensor
 }
+
 ``` 
